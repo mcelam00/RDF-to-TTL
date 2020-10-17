@@ -1,0 +1,10 @@
+@prefix e:<http://jyu.fi/employment#> .
+@prefix f:<http://example.org#> .
+@prefix j:<http://jyu.fi/jobs#> .
+
+
+f:bill e:worksAs j:professor .
+f:jane e:worksAs j:juniorResearcher .
+f:john e:worksAs j:teacher .
+f:mary e:worksAs j:seniorResearcher .
+
