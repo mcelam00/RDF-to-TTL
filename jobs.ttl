@@ -1,0 +1,8 @@
+@prefix j: <http://jyu.fi/jobs#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+j:juniorResearcher rdf:type j:ResearchJob .
+j:professor rdf:type j:EducationJob , j:ResearchJob .
+j:seniorResearcher rdf:type j:ResearchJob .
+j:teacher rdf:type j:EducationJob .
