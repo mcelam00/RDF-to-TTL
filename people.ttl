@@ -1,0 +1,12 @@
+@prefix f: <http://example.org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+f:bill f:age "30"^^xsd:integer ; f:firstName "Bill" ; f:surName "Boul" ; f:loves f:jane .
+
+f:jane f:age "26"^^xsd:integer ; f:firstName "Jane" ; f:surName "Joli" .
+
+f:john f:age "25"^^xsd:integer ; f:firstName "John" ; f:surName "More" ; f:hasFriend f:bill ; f:loves f:mary .
+
+f:mary f:age "24"^^xsd:integer ; f:firstName "Mary" ; f:surName "Popens" .
